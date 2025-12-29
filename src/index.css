@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 252 38% 7%;
+  --foreground: 0 0% 98%;
+
+  --card: 252 38% 7%;
+  --card-foreground: 0 0% 98%;
+
+  --popover: 252 38% 7%;
+  --popover-foreground: 0 0% 98%;
+
+  --primary: 287 92% 68%;
+  --primary-foreground: 0 0% 100%;
+
+  --secondary: 252 22% 16%;
+  --secondary-foreground: 0 0% 98%;
+
+  --muted: 252 18% 18%;
+  --muted-foreground: 0 0% 75%;
+
+  --accent: 252 22% 16%;
+  --accent-foreground: 0 0% 98%;
+
+  --destructive: 0 84% 60%;
+  --destructive-foreground: 0 0% 98%;
+
+  --border: 252 20% 20%;
+  --input: 252 20% 20%;
+  --ring: 287 92% 68%;
+
+  --radius: 0.75rem;
+}
+
+body {
+  margin: 0;
+  font-family: "Raleway", serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: linear-gradient(to left, rgb(27 20 41), rgb(20 15 35));
+}
