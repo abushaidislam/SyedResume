@@ -121,6 +121,7 @@ function NavBar() {
                 href="https://github.com/abushaidislam"
                 target="_blank"
                 className="fork-btn-inner"
+                aria-label="View GitHub Profile"
               >
                 <CgGitFork style={{ fontSize: "1.2em" }} />{" "}
                 <AiFillStar style={{ fontSize: "1.1em" }} />

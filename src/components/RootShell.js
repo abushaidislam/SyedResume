@@ -23,7 +23,9 @@ function RootShell({ children }) {
       <div className="App" id={load ? "no-scroll" : "scroll"}>
         <Navbar />
         <ScrollToTop />
-        {children}
+        <main id="main-content" role="main">
+          {children}
+        </main>
         <Footer />
       </div>
     </>

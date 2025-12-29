@@ -27,8 +27,9 @@ function Footer() {
               <a
                 href="https://github.com/abushaidislam"
                 style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
+                aria-label="GitHub"
               >
                 <AiFillGithub />
               </a>
@@ -37,8 +38,9 @@ function Footer() {
               <a
                 href="https://twitter.com/abushaidislam"
                 style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
+                aria-label="Twitter"
               >
                 <AiOutlineTwitter />
               </a>
@@ -47,8 +49,9 @@ function Footer() {
               <a
                 href="https://www.linkedin.com/in/abushaidislam/"
                 style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
+                aria-label="LinkedIn"
               >
                 <FaLinkedinIn />
               </a>
@@ -57,8 +60,9 @@ function Footer() {
               <a
                 href="https://www.instagram.com/abushaidislam"
                 style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
+                aria-label="Instagram"
               >
                 <AiFillInstagram />
               </a>
