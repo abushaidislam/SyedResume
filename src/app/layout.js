@@ -7,6 +7,7 @@ import "../index.css";
 import RootShell from "../components/RootShell";
 
 export const metadata = {
+  metadataBase: new URL("https://abushaidislam.vercel.app"),
   title: "Abu Syed | Full-Stack Developer & Designer",
   description:
     "Portfolio of Abu Syed - Full-Stack Developer specializing in React, Next.js, and modern web technologies. Building clean, responsive web experiences and reliable back-end services.",
@@ -22,6 +23,10 @@ export const metadata = {
   ],
   authors: [{ name: "Abu Syed", url: "https://github.com/abushaidislam" }],
   creator: "Abu Syed",
+  icons: {
+    icon: "/icon.png",
+    apple: "/icon.png",
+  },
   openGraph: {
     type: "website",
     locale: "en_US",

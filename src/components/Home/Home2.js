@@ -77,7 +77,7 @@ function Home2() {
 
             <div className="home-about-cards">
               <div className="home-about-card">
-                <h3 className="home-about-card-title">Core stack</h3>
+                <h2 className="home-about-card-title">Core stack</h2>
                 <div className="home-about-chips">
                   {[...profile.primarySkills, ...profile.secondarySkills].map(
                     (skill) => (
@@ -90,7 +90,7 @@ function Home2() {
               </div>
 
               <div className="home-about-card">
-                <h3 className="home-about-card-title">Highlights</h3>
+                <h2 className="home-about-card-title">Highlights</h2>
                 <div className="home-about-list">
                   {profile.highlights.map((item) => (
                     <div key={item} className="home-about-list-item">
@@ -101,7 +101,7 @@ function Home2() {
               </div>
 
               <div className="home-about-card">
-                <h3 className="home-about-card-title">Interested in</h3>
+                <h2 className="home-about-card-title">Interested in</h2>
                 <div className="home-about-chips">
                   {profile.interests.map((item) => (
                     <span key={item} className="home-about-chip">
@@ -112,7 +112,7 @@ function Home2() {
               </div>
 
               <div className="home-about-card">
-                <h3 className="home-about-card-title">Currently</h3>
+                <h2 className="home-about-card-title">Currently</h2>
                 <div className="home-about-chips">
                   {profile.currently.map((item) => (
                     <span key={item} className="home-about-chip">
