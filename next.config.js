@@ -1,7 +1,13 @@
 const nextConfig = {
   reactStrictMode: true,
+  productionBrowserSourceMaps: true,
+  swcMinify: true,
+  compress: true,
   images: {
     disableStaticImages: true,
+  },
+  experimental: {
+    optimizePackageImports: ["react-bootstrap", "react-icons"],
   },
   webpack: (config) => {
     config.module.rules.push({
