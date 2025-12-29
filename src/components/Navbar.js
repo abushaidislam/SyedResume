@@ -108,6 +108,14 @@ function NavBar() {
               </Link>
             </Nav.Item>
 
+            <Nav.Item>
+              <Link href="/contact" passHref legacyBehavior>
+                <Nav.Link onClick={() => updateExpanded(false)}>
+                  <AiOutlineUser style={{ marginBottom: "2px" }} /> Contact
+                </Nav.Link>
+              </Link>
+            </Nav.Item>
+
             <Nav.Item className="fork-btn">
               <Button
                 href="https://github.com/abushaidislam"
